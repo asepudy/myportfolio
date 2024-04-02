@@ -23,9 +23,9 @@ $(window).on("load", function() {
   // --------------------------------------------- //
   // Loader & Main Section Loading Animation Start
   // --------------------------------------------- //
-  setTimeout(function(){
-    $(".loader__logo").removeClass('fadeIn').addClass('fadeOut');
-  },600);
+  // setTimeout(function(){
+  //   $(".loader__logo").removeClass('fadeIn').addClass('fadeOut');
+  // },600);
 
   setTimeout(function(){
     $('body').addClass('loaded');
